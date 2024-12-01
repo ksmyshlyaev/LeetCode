@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "leetcode"
+version = "0.1.0"
+description = "Solutions for LeetCode problems"
+authors = ["Konstantin Smyshliaev <smyshlyaevkonst@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
